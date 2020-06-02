@@ -1,9 +1,19 @@
 * {
     box-sizing: border-box; }
 
+header {
+    background-color: white;
+    margin: 0px;
+}    
+
+body {
+    background-color: #f9f9f9;
+}
+
 .Main1 {
     grid-area: main;
     margin: 20px;
+    
     
 }
 .Right1 {
@@ -13,10 +23,11 @@
 
 .grid-container {
     display: grid;
-    grid-template-areas: 'main main main right right';
+    grid-template-areas: 'main right';
     grid-gap: 20px;
     padding: 10px;
-    background-color: aqua;
+    
+    
 }
 .grid-container > div {
     
@@ -52,4 +63,31 @@
 .profile img {
     float: center;
     width: 10%;
+}
+
+.video{
+    
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+    }
+
+.title {
+     margin-top: 15px;
+     font-size: 20px;
+     font-weight: bolder;
+     font:  sans-serif;
+     text-align: left;   
+    }
+.under-video  {
+     display: grid;
+     grid-template-columns: 150px 200px 200px 100px;
+     grid-template-rows: 500px;
+} 
+.under-video img {
+    width: 20%;
+}
+.views-no {
+    margin-right: 100px;
+    color: #606060;
 }
