@@ -7,12 +7,25 @@
   </head>
   <body>
       <header>
-          <nav>
-              <div id="logo">
-                  <img src="images/logo.png" alt="y" width="5%" >
+          <div class="row">
+              <nav class="column" id="logo">
+                    <img src="images/logo.png" alt="y" width="15%" >
+              </nav>
+              <nav class="column search">
+                    <form action="/form/submit" method="GET"> 
+                        <input type="text" name="text" class="search" placeholder="Search here!">
+                        <button type="button">Search</button>
+                    </form>
+              </nav>
+              <nav class="column profile" >
+                    <img src="images/createvideo-icon.jpg" alt="y">
+                    <img src="images/apps-icon.jpg" alt="y" >
+                    <img src="images/notification-icon.jpg" alt="y">
+                    <img src="images/profile-icon.jpg" alt="y">
+              </nav>
 
-              </div>
-          </nav>
+          </div>
+
       </header>
 
        <div class="grid-container">

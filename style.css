@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box; }
+
 .Main1 {
     grid-area: main;
+    margin: 20px;
     
 }
 .Right1 {
     grid-area: right;
+    margin: 20px;
 }
 
 .grid-container {
@@ -15,4 +20,36 @@
 }
 .grid-container > div {
     
+}
+
+#id {
+    position: relative;
+}
+
+.search {
+    margin-top: 6px;
+    text-align: center;
+}
+
+.column {
+    width: 33.3%;
+    float: left;
+    padding: 15px;
+    border: 30px
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.profile {
+    float: right;
+    text-align: right;
+}
+
+.profile img {
+    float: center;
+    width: 10%;
 }
