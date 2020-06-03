@@ -1,162 +1,156 @@
 * {
-    box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-a { 
-    text-decoration: none;
-    color: #000000;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
 header {
-    background-color: white;
-    margin: 0px;
-}    
+  background-color: white;
+  margin: 0px;
+}
 
 body {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
 }
 
-.Main1 {
-    grid-area: main;
-    margin: 20px;
-    
-    
+.Main {
+  grid-area: main;
+  margin: 20px;
 }
-.Right1 {
-    grid-area: right;
-    margin: 20px;
+.Right {
+  grid-area: right;
+  margin: 20px;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-areas: 'main right';
-    grid-gap: 20px;
-    padding: 10px;
-    
-    
+  display: grid;
+  grid-template-areas: "main right";
+  grid-gap: 20px;
+  padding: 10px;
 }
 .grid-container > div {
-    
 }
 
 #id {
-    position: relative;
+  position: relative;
 }
 
 .search {
-    margin-top: 6px;
-    text-align: center;
+  margin-top: 6px;
+  text-align: center;
 }
 
 .column {
-    width: 33.3%;
-    float: left;
-    padding: 15px;
-    border: 30px
+  width: 33.3%;
+  float: left;
+  padding: 15px;
+  border: 30px;
 }
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .profile {
-    float: right;
-    text-align: right;
+  float: right;
+  text-align: right;
 }
 
 .profile img {
-    float: center;
-    width: 10%;
+  float: center;
+  width: 10%;
 }
 
-.video{
-    
-    width: auto;
-    margin: 0 auto;
-    text-align: left;
-    }
+.video {
+  width: auto;
+  margin: 0 auto;
+  text-align: left;
+}
 
 .title {
-     margin-top: 15px;
-     font-size: 20px;
-     font-weight: bolder;
-     font:  sans-serif;
-     text-align: left;   
-    }
-.under-video-icons  {
-     display: grid;
-     grid-template-columns: 150px 200px 200px 100px;
-     grid-template-rows: 50px;
-     vertical-align: middle;
-     margin-top: 10px;
-} 
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  font: sans-serif;
+  text-align: left;
+}
+.under-video-icons {
+  display: grid;
+  grid-template-columns: 150px 200px 200px 100px;
+  grid-template-rows: 50px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
 .under-video-icons img {
-    width: 30px;
+  width: 30px;
 }
 .views-no {
-    margin-right: 10px;
-    color: #606060;
-    vertical-align: middle;
+  margin-right: 10px;
+  color: #606060;
+  vertical-align: middle;
 }
-.number-views{
-    align: bottom;
+.number-views {
+  align: bottom;
 }
 
 .icon-container {
- vertical-align: middle;
+  vertical-align: middle;
 }
 .icon-container span {
-    vertical-align: middle;
-   }
-
-
-.avatar-subscribe-area{
-    display: grid;
-    grid-template-columns: 1fr  4fr 2fr;
-    align-items: center;
+  vertical-align: middle;
 }
- 
+
+.avatar-subscribe-area {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  align-items: center;
+}
+
 .avatar-subscribe-area div img {
-    width: 75px;
-    border-radius: 50%;
-    margin-right: 25px;
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 25px;
 }
 
 .avatar-subscribe-area div p {
-    font-weight: bolder;
-    font:  sans-serif;
-    text-align: left; 
-    font-size: 20px;
+  font-weight: bolder;
+  font: sans-serif;
+  text-align: left;
+  font-size: 20px;
 }
 
 .subscribe-element {
-    float: right;
-    text-align: right;
+  float: right;
+  text-align: right;
 }
 
 #subscribe-button {
-    border: #000000;
-    background-color: red;
-    border-radius: 5%;
-    text-align: center;
-    cursor: pointer;
-    font-size: 18px;
-    padding: 20px;
-    color: aliceblue;
+  border: #000000;
+  background-color: red;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 20px;
+  color: aliceblue;
 }
 ul img {
-    width: 200px;
+  width: 200px;
 }
 ul {
-    list-style: none;
-    padding: 20px;
+  list-style: none;
+  padding: 20px;
 }
-.thumbnail-preview{
-    display: grid;
-    grid-template-columns: 1fr  1fr;
-    margin: 20px;
+.thumbnail-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
 }
-.column-info{
-    text-align: left;
+.column-info {
+  text-align: left;
 }

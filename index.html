@@ -1,140 +1,153 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-      <header>
-          <div class="row">
-              <nav class="column" id="logo">
-                    <img src="images/logo.png" alt="y" width="15%" >
-              </nav>
-              <nav class="column search">
-                    <form action="/form/submit" method="GET"> 
-                        <input type="text" name="text" class="search" placeholder="Search here!">
-                        <button type="button">Search</button>
-                    </form>
-              </nav>
-              <nav class="column profile" >
-                    <img src="images/createvideo-icon.jpg" alt="y">
-                    <img src="images/apps-icon.jpg" alt="y" >
-                    <img src="images/notification-icon.jpg" alt="y">
-                    <img src="images/profile-icon.jpg" alt="y">
-              </nav>
+</head>
 
-          </div>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="row">
+            <nav class="column" id="logo">
+                <img src="images/logo.png" alt="y" width="15%">
+            </nav>
+            <nav class="column search">
+                <form action="/form/submit" method="GET">
+                    <input type="text" name="text" class="search" placeholder="Search here!">
+                    <button type="button">Search</button>
+                </form>
+            </nav>
+            <nav class="column profile">
+                <img src="images/createvideo-icon.jpg" alt="y">
+                <img src="images/apps-icon.jpg" alt="y">
+                <img src="images/notification-icon.jpg" alt="y">
+                <img src="images/profile-icon.jpg" alt="y">
+            </nav>
 
-      </header>
+        </div>
 
-       <div class="grid-container">
-            <div class="video">
-                <iframe width="700px" height="400px" src="https://www.youtube.com/embed/watch?v=NUsoVlDFqZg&list=RD2GhF2mPKnDg&index=3"  allowfullscreen></iframe>
-                <div class="title">    
-                    Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona (Español)
+    </header>
+    <!-- Main video and recommended videos sidebar sections -->
+    <div class="grid-container">
+        <!-- <Main video section -->
+        <div class="video">
+            <iframe width="700px" height="400px"
+                src="https://www.youtube.com/embed/watch?v=NUsoVlDFqZg&list=RD2GhF2mPKnDg&index=3"
+                allowfullscreen></iframe>
+            <div class="title">
+                Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona (Español)
+            </div>
+            <nav class="under-video-icons">
+                <div class="icon-container number-views">
+                    <span class="views-no"> 10000000 </span>
+                    <span> views </span>
                 </div>
-                <nav class="under-video-icons" >
-                    <div class="icon-container number-views">
-                        <span  class="views-no">  10000000 </span>
-                        <span> views </span>
-                    </div>
-                        
-                    <div class="icon-container">
-                            <span> <a href="#"><img id="like-icon" src="images/like.png"  alt="y"> </a></span>
-                            <span>300000</span>
-                    </div>
-                    <div class="icon-container">
-                            <span> <a href="#"><img  src="images/dislike.png" alt="y" > </a></span> 
-                            <span>80</span>
-                    </div>
-                    <div class="icon-container">
-                            <span><a href="#"><img id="share-icon" src="images/share.png" alt="y" ></a></span> 
-                            <span>Share</span>
-                    </div>             
-                </nav> 
-                <hr>
-                <div class="avatar-subscribe-area">
-                    <div>
-                        <a href="">
-                            <img src="images/profile-picture.jpg" alt="">
-                        </a>
-                    </div>
-                    <div >
-                        <a href="">
-                            <p> Akitas Forever </p>
-                            <span>23.8K subscribers</span>
-                        </a>
-                    </div>
-                    <div class="subscribe-element">
-                        <button id="subscribe-button" type="button">SUBSCRIBE</button>
-                    </div>
+
+                <div class="icon-container">
+                    <span> <a href="#"><img id="like-icon" src="images/like.png" alt="y"> </a></span>
+                    <span>300000</span>
                 </div>
-            </div> 
-            <div class="Right1"> 
-                <ul>
-                   <li>
+                <div class="icon-container">
+                    <span> <a href="#"><img src="images/dislike.png" alt="y"> </a></span>
+                    <span>80</span>
+                </div>
+                <div class="icon-container">
+                    <span><a href="#"><img id="share-icon" src="images/share.png" alt="y"></a></span>
+                    <span>Share</span>
+                </div>
+            </nav>
+            <hr>
+            <div class="avatar-subscribe-area">
+                <div>
+                    <a href="">
+                        <img src="images/profile-picture.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <p> Akitas Forever </p>
+                        <span>23.8K subscribers</span>
+                    </a>
+                </div>
+                <div class="subscribe-element">
+                    <button id="subscribe-button" type="button">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <!-- Recommended videos sibebar -->
+        <div class="Right">
+            <ul>
+                <li>
                     <div class="thumbnail-preview">
-                        <div class="column-img"><span><a href=""> <img  src="images/thumbnail-preview.png"> </a></span></div>
-                        <div class="column-info">
-                            <span> 
-                               <p style="font-size: larger; font: 1em sans-serif;"> Dolor id fringilla ut lacinia semy</p>  
-                               <p style="color: #9d9d9d;"> id fringilla  <br>
-                                100M views</p>
-                            </span>     
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnail-preview.png"> </a></span>
                         </div>
-                     </div>
-                   </li> 
-                        
-                    
-                       
-                    <li>
+                        <div class="column-info">
+                            <span>
+                                <p style="font-size: larger; font: 1em sans-serif;"> Dolor id fringilla ut lacinia semy
+                                </p>
+                                <p style="color: #9d9d9d;"> id fringilla <br>
+                                    100M views</p>
+                            </span>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li>
                     <div class="thumbnail-preview">
                         <div class="column-img"><span><a href=""> <img src="images/thumbnails2.png"> </a></span></div>
                         <div class="column-info">
-                            <span> 
-                               <p style="font-size: larger; font: 1em sans-serif;"> Nulla felis inceptos id quam veli</p>  
-                               <p style="color: #9d9d9d;"> Nulla felis  <br>
-                                5M views</p>
-                            </span>     
+                            <span>
+                                <p style="font-size: larger; font: 1em sans-serif;"> Nulla felis inceptos id quam veli
+                                </p>
+                                <p style="color: #9d9d9d;"> Nulla felis <br>
+                                    5M views</p>
+                            </span>
                         </div>
-                                         
-                   </div>
-                   </li> 
 
-                    <li>
-                    <div class="thumbnail-preview">
-                        <div class="column-img"><span><a href=""> <img src="images/thumbnail-preview.png"> </a></span></div>
-                        <div class="column-info">
-                            <span> 
-                               <p style="font-size: larger; font: 1em sans-serif;"> Demi Lovato Sorry not sorry</p>  
-                               <p style="color: #9d9d9d;"> Demy Lovato  <br>
-                                200M views</p>
-                            </span>     
-                        </div>
-                        
-                   </div> 
-                    </li>
-                    
-                    <li>
-                    <div class="thumbnail-preview">
-                        <div class="column-img"><span><a href=""> <img width="200px" src="images/thumbnails2.png"> </a></span></div>
-                        <div class="column-info">
-                            <span> 
-                               <p style="font-size: larger; font: 1em sans-serif;"> Lorem ipsum dolor sit</p>  
-                               <p style="color: #9d9d9d;"> Lorem ipsum  <br>
-                                200M views</p>
-                            </span>     
-                        </div>
-                        
-                   </div> 
+                    </div>
                 </li>
 
-                </ul>
-                     
-                      
-                     
-            </div>  
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnail-preview.png"> </a></span>
+                        </div>
+                        <div class="column-info">
+                            <span>
+                                <p style="font-size: larger; font: 1em sans-serif;"> Demi Lovato Sorry not sorry</p>
+                                <p style="color: #9d9d9d;"> Demy Lovato <br>
+                                    200M views</p>
+                            </span>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img width="200px" src="images/thumbnails2.png">
+                                </a></span></div>
+                        <div class="column-info">
+                            <span>
+                                <p style="font-size: larger; font: 1em sans-serif;"> Lorem ipsum dolor sit</p>
+                                <p style="color: #9d9d9d;"> Lorem ipsum <br>
+                                    200M views</p>
+                            </span>
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+
+
         </div>
-  </body>
+    </div>
+</body>
+
 </html>
