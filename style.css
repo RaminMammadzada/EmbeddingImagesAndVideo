@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box; }
 
+a { 
+    text-decoration: none;
+    color: #000000;
+}
+
 header {
     background-color: white;
     margin: 0px;
@@ -79,14 +84,14 @@ body {
      font:  sans-serif;
      text-align: left;   
     }
-.under-video  {
+.under-video-icons  {
      display: grid;
      grid-template-columns: 150px 200px 200px 100px;
      grid-template-rows: 50px;
      vertical-align: middle;
      margin-top: 10px;
 } 
-.under-video img {
+.under-video-icons img {
     width: 30px;
 }
 .views-no {
@@ -104,3 +109,39 @@ body {
 .icon-container span {
     vertical-align: middle;
    }
+
+
+.avatar-subscribe-area{
+    display: grid;
+    grid-template-columns: 1fr  4fr 2fr;
+    align-items: center;
+}
+ 
+.avatar-subscribe-area div img {
+    width: 75px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.avatar-subscribe-area div p {
+    font-weight: bolder;
+    font:  sans-serif;
+    text-align: left; 
+    font-size: 20px;
+}
+
+.subscribe-element {
+    float: right;
+    text-align: right;
+}
+
+#subscribe-button {
+    border: #000000;
+    background-color: red;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 20px;
+    color: aliceblue;
+}
