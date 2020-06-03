@@ -18,15 +18,15 @@ This project's name is "Embedding Images and Video" in Microverse.
 
 👤 **Ramin Mammadzada**
 
-- Github: [@githubhandle](https://github.com/raminmammadzada)
-- Twitter: [@twitterhandle](https://twitter.com/raminmammadzada)
-- Linkedin: [linkedin](https://linkedin.com/raminmammadzada)
+- Github: [@raminmammadzada](https://github.com/raminmammadzada)
+- Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
+- Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada)
 
 👤 **Zulma Rocio**
 
-- Github: [@githubhandle](https://github.com/Rocio01)
-- Twitter: [@twitterhandle](https://twitter.com/rugiada8801)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rocio01](https://github.com/Rocio01)
+- Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
+- Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8)
 
 ## 🤝 Contributing
 
