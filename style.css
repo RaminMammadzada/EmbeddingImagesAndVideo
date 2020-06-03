@@ -82,12 +82,25 @@ body {
 .under-video  {
      display: grid;
      grid-template-columns: 150px 200px 200px 100px;
-     grid-template-rows: 500px;
+     grid-template-rows: 50px;
+     vertical-align: middle;
+     margin-top: 10px;
 } 
 .under-video img {
-    width: 20%;
+    width: 30px;
 }
 .views-no {
-    margin-right: 100px;
+    margin-right: 10px;
     color: #606060;
+    vertical-align: middle;
 }
+.number-views{
+    align: bottom;
+}
+
+.icon-container {
+ vertical-align: middle;
+}
+.icon-container span {
+    vertical-align: middle;
+   }
