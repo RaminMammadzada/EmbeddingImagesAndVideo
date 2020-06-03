@@ -145,3 +145,18 @@ body {
     padding: 20px;
     color: aliceblue;
 }
+ul img {
+    width: 200px;
+}
+ul {
+    list-style: none;
+    padding: 20px;
+}
+.thumbnail-preview{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    margin: 20px;
+}
+.column-info{
+    text-align: left;
+}
