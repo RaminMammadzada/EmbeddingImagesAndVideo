@@ -19,7 +19,6 @@ body {
 .sidebar {
   float: right;
   grid-area: right;
-  text-align: center;
   width: 550px;
   margin: 0 auto;
   text-align: left;
@@ -133,7 +132,7 @@ body {
 
 #subscribe-button {
   border: #000;
-  background-color: #CC0000;
+  background-color: #cc0000;
   border-radius: 5%;
   text-align: center;
   cursor: pointer;
