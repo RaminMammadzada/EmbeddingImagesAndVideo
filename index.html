@@ -19,8 +19,8 @@
             </nav>
             <nav class="column search">
                 <form action="/form/submit" method="GET">
-                    <input type="text" name="text" class="search" placeholder="Search here!">
-                    <button type="button">Search</button>
+                    <input id="input" type="text" name="text" class="search" placeholder="Search here!">
+                    <button  type="button">Search</button>
                 </form>
             </nav>
             <nav class="column profile">
@@ -34,7 +34,7 @@
 
     </header>
     <!-- Main video and recommended videos sidebar sections -->
-    <div class="grid-container">
+    <main class="grid-container">
         <!-- <Main video section -->
         <div class="video">
             <iframe width="700" height="400"
@@ -81,7 +81,8 @@
             </div>
         </div>
         <!-- Recommended videos sibebar -->
-        <div class="Right">
+        <div class="Right">            
+            <h2>Recommended Videos</h2>
             <ul>
                 <li>
                     <div class="thumbnail-preview">
@@ -153,7 +154,7 @@
 
 
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
