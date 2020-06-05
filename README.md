@@ -12,7 +12,7 @@ This project's name is "Embedding Images and Video" in Microverse.
 
 ## Live Demo
 
-[Live Demo Link](https://bit.ly/2Xt3XCg)
+[Live Demo Link](https://bit.ly/3dFHasw)
 
 ## Authors
 
