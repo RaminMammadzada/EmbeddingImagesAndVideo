@@ -16,15 +16,13 @@ body {
   background-color: #f9f9f9;
 }
 
-.Main {
-  grid-area: main;
-  margin: 20px;
-}
-
-.Right {
+.sidebar {
+  float: right;
   grid-area: right;
-  margin: 20px;
   text-align: center;
+  width: 550px;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .grid-container {
@@ -62,7 +60,7 @@ body {
 }
 
 .profile img {
-   width: 10%;
+  width: 10%;
 }
 
 .video {
@@ -135,7 +133,7 @@ body {
 
 #subscribe-button {
   border: #000;
-  background-color: red;
+  background-color: #CC0000;
   border-radius: 5%;
   text-align: center;
   cursor: pointer;
@@ -144,7 +142,7 @@ body {
   color: aliceblue;
 }
 
-ul img {
+.column-img span a img {
   width: 200px;
 }
 
@@ -156,7 +154,7 @@ ul {
 .thumbnail-preview {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 20px;
+  margin-bottom: 30px;
 }
 
 .column-info {
@@ -164,7 +162,7 @@ ul {
 }
 
 #img-logo {
-  width:15%;
+  width: 15%;
 }
 
 #input {
