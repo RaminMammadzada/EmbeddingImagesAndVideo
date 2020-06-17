@@ -1,57 +1,32 @@
-# Project Name
+# Embedding Images And Video
 
-> One paragraph statement about the project.
+> This is the clone YouTube’s video player page. Prepared for as a collaboration project with my coding partner Rocio from Microverse. 
+This project's name is "Embedding Images and Video" in Microverse.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](images/app_screenshot.jpg)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML and CSS
+- without any extra css library
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://bit.ly/3dFHasw)
 
 ## Authors
 
-👤 **Author1**
+👤 **Ramin Mammadzada**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@raminmammadzada](https://github.com/raminmammadzada)
+- Twitter: [@raminmammadzada](https://twitter.com/raminmammadzada)
+- Linkedin: [raminmammadzada](https://linkedin.com/raminmammadzada)
 
-👤 **Author2**
+👤 **Zulma Rocio**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@rocio01](https://github.com/Rocio01)
+- Twitter: [@rugiada8801](https://twitter.com/rugiada8801)
+- Linkedin: [zulma-martinez-5247a31a8](https://www.linkedin.com/in/zulma-martinez-5247a31a8)
 
 ## 🤝 Contributing
 
@@ -62,12 +37,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

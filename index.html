@@ -1,2 +1,170 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMBEDDINGIMAGESANDVIDEO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="row">
+            <nav class="column" id="logo">
+                <img id="img-logo" src="images/logo.png" alt="y">
+            </nav>
+            <nav class="column search">
+                <form action="/form/submit" method="GET">
+                    <input id="input" type="text" name="text" class="search" placeholder="Search here!">
+                    <button type="button">Search</button>
+                </form>
+            </nav>
+            <nav class="column profile">
+                <img src="images/createvideo-icon.jpg" alt="y">
+                <img src="images/apps-icon.jpg" alt="y">
+                <img src="images/notification-icon.jpg" alt="y">
+                <img src="images/profile-icon.jpg" alt="y">
+            </nav>
+
+        </div>
+
+    </header>
+    <!-- Main video and recommended videos sidebar sections -->
+    <main class="grid-container">
+        <!-- <Main video section -->
+        <div class="video">
+            <iframe width="700" height="400"
+                src="https://www.youtube.com/embed/watch?v=NUsoVlDFqZg&list=RD2GhF2mPKnDg&index=3"
+                allowfullscreen></iframe>
+            <div class="title">
+                Enrique Iglesias - Bailando ft. Descemer Bueno, Gente De Zona (Español)
+            </div>
+            <nav class="under-video-icons">
+                <div class="icon-container number-views">
+                    <span class="views-no"> 10000000 </span>
+                    <span> views </span>
+                </div>
+
+                <div class="icon-container">
+                    <span> <a href="#"><img id="like-icon" src="images/like.png" alt="y"> </a></span>
+                    <span>300000</span>
+                </div>
+                <div class="icon-container">
+                    <span> <a href="#"><img src="images/dislike.png" alt="y"> </a></span>
+                    <span>80</span>
+                </div>
+                <div class="icon-container">
+                    <span><a href="#"><img id="share-icon" src="images/share.png" alt="y"></a></span>
+                    <span>Share</span>
+                </div>
+            </nav>
+            <hr>
+            <div class="avatar-subscribe-area">
+                <div>
+                    <a href="">
+                        <img src="images/profile-picture.jpg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                        <p> Akitas Forever </p>
+                        <span>23.8K subscribers</span>
+                    </a>
+                </div>
+                <div class="subscribe-element">
+                    <button id="subscribe-button" type="button">SUBSCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <!-- Recommended videos sibebar -->
+        <div class="sidebar">
+            <h2 style="text-align: center">Recommended Videos</h2>
+            <ul>
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnail-preview.png" alt="y">
+                                </a></span>
+                        </div>
+                        <div class="column-info">
+                            <span style="font-size: larger; font: 1em sans-serif;">
+                                Dolor id fringilla ut lacinia semy
+                            </span>
+                            <br>
+                            <br>
+                            <span style="color: #9d9d9d;"> id fringilla <br>
+                                100M views
+                            </span>
+                        </div>
+                    </div>
+                </li>
+
+
+
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnails2.png" alt="y"> </a></span>
+                        </div>
+                        <div class="column-info">
+
+                            <span style="font-size: larger; font: 1em sans-serif;"> Nulla felis inceptos id quam veli
+                            </span>
+                            <br>
+                            <br>
+                            <span style="color: #9d9d9d;"> Nulla felis <br>
+                                5M views
+                            </span>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnail-preview.png" alt="y">
+                                </a></span>
+                        </div>
+                        <div class="column-info">
+
+                            <span style="font-size: larger; font: 1em sans-serif;"> Demi Lovato Sorry not sorry</span>
+                            <br>
+                            <br>
+                            <span style="color: #9d9d9d;"> Demy Lovato <br>
+                                200M views</span>
+
+                        </div>
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="thumbnail-preview">
+                        <div class="column-img"><span><a href=""> <img src="images/thumbnails2.png" alt="y">
+                                </a></span></div>
+                        <div class="column-info">
+
+                            <span style="font-size: larger; font: 1em sans-serif;"> Lorem ipsum dolor sit </span>
+                            <br>
+                            <br>
+                            <span style="color: #9d9d9d;"> Lorem ipsum <br>
+                                200M views
+                            </span>
+
+                        </div>
+
+                    </div>
+                </li>
+
+            </ul>
+
+
+
+        </div>
+    </main>
+</body>
+
 </html>

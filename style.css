@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  background-color: white;
+  margin: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  float: right;
+  grid-area: right;
+  width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "main right";
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+#id {
+  position: relative;
+}
+
+.search {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.column {
+  width: 33.3%;
+  float: left;
+  padding: 15px;
+  border: 30px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.profile {
+  float: right;
+  text-align: right;
+}
+
+.profile img {
+  width: 10%;
+}
+
+.video {
+  width: auto;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.title {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.under-video-icons {
+  display: grid;
+  grid-template-columns: 150px 200px 200px 100px;
+  grid-template-rows: 50px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.under-video-icons img {
+  width: 30px;
+}
+
+.views-no {
+  margin-right: 10px;
+  color: #606060;
+  vertical-align: middle;
+}
+
+.number-views {
+  vertical-align: bottom;
+}
+
+.icon-container {
+  vertical-align: middle;
+}
+
+.icon-container span {
+  vertical-align: middle;
+}
+
+.avatar-subscribe-area {
+  display: grid;
+  grid-template-columns: 1fr 4fr 2fr;
+  align-items: center;
+}
+
+.avatar-subscribe-area div img {
+  width: 75px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.avatar-subscribe-area div p {
+  font-weight: bolder;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+
+.subscribe-element {
+  float: right;
+  text-align: right;
+}
+
+#subscribe-button {
+  border: #000;
+  background-color: #c00;
+  border-radius: 5%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 20px;
+  color: aliceblue;
+}
+
+.column-img span a img {
+  width: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.thumbnail-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 30px;
+}
+
+.column-info {
+  text-align: left;
+}
+
+#img-logo {
+  width: 15%;
+}
+
+#input {
+  width: 350px;
+}
